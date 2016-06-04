@@ -1,0 +1,22 @@
+{
+  "name": "vuelation-affix",
+  "description": "Vue.js component for affixing an element in place while scrolling",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brian Pattison",
+    "email": "brian@codelation.com",
+    "url": "http://brianpattison.com"
+  },
+  "homepage": "https://github.com/vuelation/affix",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuelation/affix.git"
+  },
+  "license": "MIT",
+  "main": "main.vue",
+  "dependencies": {
+    "javascript-detect-element-resize": "^0.5.3",
+    "lodash.debounce": "^4.0.6",
+    "vue": "^1.0.24"
+  }
+}
