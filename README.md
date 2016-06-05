@@ -4,8 +4,23 @@ A Vue.js component for affixing an element in place while scrolling.
 
 ## Installation
 
+Install via [npm](https://www.npmjs.com):
+
 ```sh
 $ npm install vuelation-affix --save
+```
+
+Add [webpack](http://webpack.github.io) config:
+
+```js
+{
+  module: {
+    loaders: [{
+      test:    /vuelation-.*/,
+      loaders: ['vue']
+    }]
+  }
+}
 ```
 
 ## Usage
@@ -16,7 +31,7 @@ Register the Vue component:
 Vue.component('affix', require('vuelation-affix'));
 ```
 
-Use the component in your HTML:
+Use the component:
 
 ```html
 <div class="container">
