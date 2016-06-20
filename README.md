@@ -16,7 +16,7 @@ Add [webpack](http://webpack.github.io) config:
 {
   module: {
     loaders: [{
-      test:    /vuelation-.*/,
+      test:    /\.vue$/,
       loaders: ['vue']
     }]
   }
